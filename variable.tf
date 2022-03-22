@@ -4,5 +4,5 @@ variable "tags"{
 }
 
 variable "private_subnets_cidr" {
-    type = "list"
+    type = list
 }
