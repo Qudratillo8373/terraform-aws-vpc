@@ -10,3 +10,4 @@ resource "aws_subnet" "public3" {
   vpc_id     = aws_vpc.main.id
   cidr_block =  public_subnets_cidr[2]
 }
+
