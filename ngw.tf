@@ -10,5 +10,5 @@ subnet_id  = aws_subnet.example.id
 
 
 
-    depends_on = [aws_internet_gateway.main]
+    depends_on = [aws_internet_gateway.example]
 }
