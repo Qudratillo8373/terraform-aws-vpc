@@ -5,7 +5,7 @@ subnet_id  = aws_subnet.example.id
      vpc     = true 
 
         tags  = {
-            Name = "main"
+            Name = "Dev"
         }
 
 
